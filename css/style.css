@@ -1,0 +1,258 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+}
+h1{
+    color: #ffffff;
+    font-size: 64px;
+    text-transform: uppercase;
+    max-width: 900px;
+    margin: 0 auto;
+    line-height: 89px;
+}
+h2{
+    font-size: 36px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 102px;
+    margin-bottom: 46px;
+}
+h1+p{
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.wrapper{
+    max-width: 1110px;
+    margin: 0px auto;
+}
+.wrapper-gray{
+    background-color: #F7F7F7;
+}
+.bg{
+    background-image: url("../img/Rectangle.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 300px 0;
+}
+.title{
+
+}
+
+.stat{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    max-width: 903px;
+    margin: -200px auto 0px;
+    /* padding: 20px 48px; */
+}
+
+.stat-item h2{
+    font-size: 72px;
+    color: #F7654A;
+}
+.stat-item h3{
+    font-size: 36px;
+    color: #000000;;
+}
+.stat-item p{
+    color: #999999;
+}
+.box-party{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.box-party > div{
+    flex-basis: 32%;
+    max-width: 32%;
+}
+.box-party img{
+    width: 100%;
+    /* height: 100%; */
+    margin-top: 27px;
+}
+.box-party h3 {
+    position: relative;
+    padding-top: 45px;
+    margin-bottom: 102px;
+    margin-top: 21px;
+    letter-spacing: 1.3px;
+}
+.box-party h3::before{
+    content:'';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 55px;
+    height: 6px;
+    background-color: #F7654A;
+    margin-top: 17px;
+}
+.contact{
+    background-color: #F7654A;
+    color: #ffffff;
+}
+.box-contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box-contact h3{
+    font-size: 48px;
+    letter-spacing: 0.02em;
+    margin-top: 42px;
+    margin-bottom: 33px;
+}
+.box-contact p{
+    font-size: 25px;
+    letter-spacing: 0.02em;
+    margin-top: -13px;
+    margin-bottom: 38px;
+}
+.box-contact button{
+    background-color: #ffffff;
+    border: none;
+    padding: 17px 47px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+.grid{
+    text-align: center;
+    display: grid;
+    grid-template-areas: "a b c" "d e f";
+    grid-gap: 20px;
+}
+.grid-item{
+    background-color: #F7F7F7;
+    padding: 20px 20px;
+}
+.grid-one{
+    grid-area: a;
+}
+.grid-two{
+    grid-area: b;
+}
+.grid-three{
+    grid-area: c;
+}
+.grid-four{
+    grid-area: d;
+}
+.grid-five{
+    grid-area: e;
+}
+.grid-six{
+    grid-area: f;
+}
+.grid-photo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 120px;
+}
+.grid-photo-item{
+    height: 100%;
+    position: relative;
+}
+.grid-photo-item::before{
+    content:'';
+    background-color: rgba(64,65,73,0.5);
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: 0.3s;
+}
+.grid-photo-item:hover:before{
+    content:'';
+    background-color: rgba(64,65,73,0);
+}
+
+.grid-photo-item img{
+    width: 100%;
+    height: 100%;
+}
+.box-feedback{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.box-feedback>div{
+    box-sizing: content-box;
+    max-width: 32%;
+    flex-basis: 32%;
+}.box-feedback{
+     display: flex;
+     justify-content: space-between;
+     align-items: flex-start;
+     margin-top: 54px;
+ }
+.box-feedback>div{
+    box-sizing: content-box;
+    max-width: 32%;
+    flex-basis: 32%;
+}
+.feedback{
+    background-color: #F7F7F7;
+    font-family: Open Sans, sans-serif;
+    font-size: 14px;
+    color: #999999;
+    line-height: 22px;
+    padding: 26px 33px;
+    margin-bottom: 37px;
+}
+.name{
+    font-size: 22px;
+}
+.feedback::before{
+    content:'';
+    background-image: url("../img/svg/bg.svg");
+    display: block;
+    width: 34px;
+    height: 28px;
+    background-repeat: no-repeat;
+}
+.footer-contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    text-align: center;
+}
+.footer-contact>div{
+    flex: 24%;
+    max-width: 24%;
+}
+.footer-contact h3{
+    color: #999999;
+    font-size: 24px;
+    font-weight: normal;
+}
+.footer-contact-info{
+    font-size: 24px;
+    padding-left: 0;
+    margin-top: 34px;
+    margin-bottom: 154px;
+}
+.footer-contact>div:last-child{
+    color:#F7654A;
+}
+.box-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box-footer a{
+    color: #F7654A;
+    text-decoration: none;
+}
+.footer{
+    background-color: #404149;
+    padding: 30px 0px;
+    font-family: Open Sans, sans-serif;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
